@@ -48,15 +48,15 @@ button {
     padding: 10px 6px;
     border: none;
     font-size: 17px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 7px;
     letter-spacing: 4px;
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-    background: rgb(0, 140, 255);
-    box-shadow: 0 0 15px rgb(0, 140, 255);
+    background: #00437a;
+    box-shadow: 0 0 10px rgb(0, 140, 255);
 }
 
 button:hover {
