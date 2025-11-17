@@ -14,9 +14,9 @@ const dishes = document.querySelector(".dishes");
 const oneTimePick = document.getElementById("oneTimePick");
 
 const randomFood = Math.floor(Math.random() * foods.length);
-dishes.textContent = foods[randomFood];
+dishes.textContent = "Hôm nay bạn nên ăn: " + foods[randomFood];
 
 function getRandomFood() {
     const randomFood = Math.floor(Math.random() * foods.length);
-    dishes.textContent = foods[randomFood];
+    dishes.textContent = "Hôm nay bạn nên ăn: " + foods[randomFood];
 }
