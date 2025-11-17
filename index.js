@@ -13,8 +13,10 @@ const foods = [
 const dishes = document.querySelector(".dishes");
 const oneTimePick = document.getElementById("oneTimePick");
 
+const randomFood = Math.floor(Math.random() * foods.length);
+dishes.textContent = foods[randomFood];
+
 function getRandomFood() {
     const randomFood = Math.floor(Math.random() * foods.length);
     dishes.textContent = foods[randomFood];
-    oneTimePick.textContent = "Gợi ý món ăn khác";
 }
